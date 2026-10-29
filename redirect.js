@@ -1,0 +1,3 @@
+// Старый адрес soul1n-max.github.io/sinergia-planner/… → новый soul1n-max.github.io/…
+var rest = location.pathname.replace(/^\/sinergia-planner\/?/, '/');
+location.replace('https://soul1n-max.github.io' + rest + location.search + location.hash);
